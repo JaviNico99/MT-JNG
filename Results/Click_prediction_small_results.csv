@@ -1,0 +1,13 @@
+,Dataset,Model,Variables,Default/Tune,Encoder,Metric,Value,Time,Iterations,mean_Time
+0,Click_prediction_small,HistGradientBoosting,AllVariables,Default,OneHotEncoding,BalancedAccuracy,0.6062810164903569,281.2628035545349,1,281.2628035545349
+1,Click_prediction_small,HistGradientBoosting,AllVariables,Tune,OneHotEncoding,BalancedAccuracy,0.6030715724389901,464.4819076061249,10,46.44819076061249
+2,Click_prediction_small,HistGradientBoosting,AllVariables,Default,CountEncoding,BalancedAccuracy,0.6259465499431749,0.3844127655029297,1,0.3844127655029297
+3,Click_prediction_small,HistGradientBoosting,AllVariables,Tune,CountEncoding,BalancedAccuracy,0.6235789013495845,5.85075044631958,10,0.585075044631958
+4,Click_prediction_small,HistGradientBoosting,AllVariables,Default,OrdinalEncoder,BalancedAccuracy,0.6185514050947782,0.34873342514038086,1,0.34873342514038086
+5,Click_prediction_small,HistGradientBoosting,AllVariables,Tune,OrdinalEncoder,BalancedAccuracy,0.6210896520893785,2.4981844425201416,10,0.24981844425201416
+6,Click_prediction_small,HistGradientBoosting,AllVariables,Default,HGB_NativeSupport,BalancedAccuracy,0.565445544513774,0.436382532119751,1,0.436382532119751
+7,Click_prediction_small,HistGradientBoosting,AllVariables,Tune,HGB_NativeSupport,BalancedAccuracy,0.5700666574628993,3.025925397872925,10,0.3025925397872925
+8,Click_prediction_small,HistGradientBoosting,AllVariables,Default,TargetEncoder,BalancedAccuracy,0.6348221248704693,0.3279759883880615,1,0.3279759883880615
+9,Click_prediction_small,HistGradientBoosting,AllVariables,Tune,TargetEncoder,BalancedAccuracy,0.6306312469543337,2.4711501598358154,10,0.24711501598358154
+10,Click_prediction_small,HistGradientBoosting,AllVariables,Default,CatboostNativeSupport,BalancedAccuracy,0.5825332835343782,0.7325448989868164,1,0.7325448989868164
+11,Click_prediction_small,HistGradientBoosting,AllVariables,Tune,CatboostNativeSupport,BalancedAccuracy,0.5889622793458422,4.276843309402466,10,0.4276843309402466
